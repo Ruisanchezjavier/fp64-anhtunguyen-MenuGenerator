@@ -23,9 +23,7 @@ It depends on the language, but you have `./src/app.js`, `./src/style.css` and `
 
 ### I don't see my changes...
 
-Everytime you change any file inside the `./src` folder the website's public URL will automatically refresh the changes (it's a process called hot deploy)
-Remember also to refresh cleaning the cache (`command+shift+r` on Mac, `control+shift+r` on PC & Linux)
-
+"Whenever you make changes to any file within the (./src) folder, the public URL of the website will automatically refresh to reflect the updates. This process, known as hot deploy, ensures that your changes are immediately visible. Additionally, remember to refresh the page while clearing the cache to ensure that you see the most recent changes. On Mac, you can do this by pressing (command+shift+r), while on PC and Linux, it's (control+shift+r). If you encounter any issues, please let us know."
 ### How do I include more images in my project?
 
 Add them inside the `./src/assets/img` folder and import them from any of your JS files. E.g: `import "../assets/img/rigo-baby.jpg";`
